@@ -1,0 +1,42 @@
+🍽️ Branding para tu página web de recetas con IA
+1. Nombre del proyecto
+Aquí van algunas opciones creativas, según el estilo que quieras:
+
+Estilo	Nombre propuesto	Significado
+Moderno	ChefMind	IA con “mente de chef”
+Cercano	SazónIA	Sazón + IA
+Gourmet	Cocina Neural	Inspirado en redes neuronales
+Creativo	RecetIA	Juego de palabras: Receta + IA
+Minimalista	Eatcode	Comer + Código
+Divertido	SabIA	Sabor + IA + "sabía"
+
+💡 ¿Te gusta alguno o prefieres que proponga más?
+
+2. Colores
+Paleta pensada para transmitir tecnología, frescura y apetito:
+
+Uso	Color	Hex
+Primario / titulos	Tomate maduro	#D94F30
+Secundario	Albahaca fresca	#3A775B
+Fondo claro	Crema vainilla	#ffedd8;
+Detalles UI / textos y parrados	Gris pizarra	#444444
+Color de acento	Azul digital suave	#5A8DEE
+
+3. Tipografías
+Títulos (impacto): Poppins o Montserrat
+
+Texto del cuerpo: Inter, Open Sans o Lato
+
+Código o datos de IA (si los muestras): Fira Code o Source Code Pro
+
+Todas están disponibles en Google Fonts.
+
+4. Estilo visual
+Diseño limpio y minimalista, con énfasis en la fotografía de comida.
+
+Elementos UI suaves, con bordes redondeados, sombra ligera, y animaciones sutiles.
+
+Íconos de cocina estilo lineal (flat icons), como cuchara, sartén, robot de cocina, etc.
+
+Posiblemente una mascota/ícono tipo asistente virtual (como un robot chef).
+

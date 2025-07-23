@@ -1,0 +1,101 @@
+/* IMPORT DE FUENTES */
+
+/* IMPORT DE POPPINS */
+@import url("https://fonts.googleapis.com/css2?family=Poppins&display=swap");
+
+/* IMPORT DE INTER */
+@import url("https://fonts.googleapis.com/css2?family=Inter&display=swap");
+
+/*VARIABLES CSS PARA LOS COLORES*/
+:root {
+  /* 🍅 Primario - Titulos: Tomate maduro */
+  --color-primario: #d94f30;
+
+  /* 🌿 Secundario: Albahaca fresca */
+  --color-secundario: #3a775b;
+
+  /* 🍦 Fondo claro: Crema vainilla */
+  --color-fondo-claro: #ffedd8;
+
+  /* 🧱 Texto y párrafos: Gris pizarra */
+  --color-texto: #444444;
+
+  /* 🔷 Acento: Azul digital suave */
+  --color-acento: #5a8dee;
+}
+
+
+main {
+    width: 100%;
+    min-height: 75vh;
+}
+
+#contenedor-cards {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(280px, 1fr));
+  padding: 2rem;
+  justify-items: center;
+  gap: 10px;
+}
+
+.card-receta {
+  background-color: white;
+  border-radius: 16px;
+  box-shadow: 0 4px 16px rgba(0, 0, 0, 0.1);
+  overflow: hidden;
+  width: 100%;
+  max-width: 550px;
+  transition: transform 0.3s ease;
+}
+
+.card-receta:hover {
+  transform: scale(1.02);
+  cursor: pointer;
+}
+
+.card-receta img {
+  width: 100%;
+  height: 200px;
+  object-fit: cover;
+}
+
+.card-info {
+  padding: 1rem;
+  display: flex;
+  flex-direction: column;
+  gap: 0.5rem;
+}
+
+.card-info h2 {
+  font-size: 1.4rem;
+  color: var(--color-primario);
+}
+
+.card-info p {
+  color: var(--color-texto);
+}
+
+.card-info .tiempo {
+  font-weight: bold;
+  color: var(--color-secundario);
+}
+
+.card-info a {
+  margin-top: 0.5rem;
+  align-self: flex-start;
+  color: var(--color-acento);
+  font-weight: bold;
+}
+
+
+svg {
+    position: absolute;
+    top: 20px;
+    left: 20px;
+    color: var(--color-acento);
+    transition: transform 0.3s ease;
+}
+svg:hover {
+    cursor: pointer;
+    transform: scale(1.15);
+}

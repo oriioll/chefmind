@@ -1,0 +1,168 @@
+/* IMPORT DE FUENTES */
+
+/* IMPORT DE POPPINS */
+@import url("https://fonts.googleapis.com/css2?family=Poppins&display=swap");
+
+/* IMPORT DE INTER */
+@import url("https://fonts.googleapis.com/css2?family=Inter&display=swap");
+
+/*VARIABLES CSS PARA LOS COLORES*/
+:root {
+  /* 🍅 Primario - Titulos: Tomate maduro */
+  --color-primario: #d94f30;
+
+  /* 🌿 Secundario: Albahaca fresca */
+  --color-secundario: #3a775b;
+
+  /* 🍦 Fondo claro: Crema vainilla */
+  --color-fondo-claro: #ffedd8;
+
+  /* 🧱 Texto y párrafos: Gris pizarra */
+  --color-texto: #444444;
+
+  /* 🔷 Acento: Azul digital suave */
+  --color-acento: #5a8dee;
+}
+
+h2 {
+  font-family: "Poppins", sans-serif;
+  color: var(--color-secundario);
+  font-size: 1.5rem;
+  margin-bottom: 1rem;
+}
+
+strong {
+  color: var(--color-acento);
+}
+
+main {
+  max-width: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: flex-start;
+}
+
+section {
+    width: 100%;
+    height: auto;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    padding: 10px;
+    font-size: 1.1rem;
+    padding-left: 50px;
+}
+
+
+img {
+  width: 200px;
+  height: 200px;
+  border-radius: 20px;
+  box-shadow: 0 8px 24px rgba(44, 62, 80, 0.15); /* Sombra suave y moderna */
+}
+
+.image {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+}
+
+header {
+  width: 100%;
+  height: auto;
+  padding: 2rem 4rem;
+  display: flex;
+  align-items: center;
+  justify-content: space-between; /* ✅ más predecible que space-around */
+  flex-direction: row;
+  gap: 2rem;
+}
+
+header .text {
+  flex: 1.5;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+
+header .image {
+  flex: 1;
+  max-width: 325px;
+  display: flex;
+  justify-content: center; /* ✅ centra imagen horizontalmente dentro de su contenedor */
+  align-items: center;
+  margin-right: 10%;
+}
+
+header .image img {
+  width: 100%;
+  height: auto;
+  border-radius: 20px;
+  box-shadow: 0 8px 24px rgba(44, 62, 80, 0.15);
+}
+
+
+@media screen and (max-width: 768px) {
+  header {
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+    padding: 2rem;
+  }
+
+  header .text {
+    flex: unset;
+    width: 100%;
+  }
+
+  header h1 {
+    font-size: 2rem; /* Reducido desde 3rem */
+  }
+
+  header p {
+    font-size: 1.1rem;
+  }
+
+  header .image {
+    max-width: 220px;
+    margin-right: 0; /* Quitamos margen lateral */
+    margin-top: 1rem;
+  }
+}
+
+@media screen and (max-width: 480px) {
+  header h1 {
+    font-size: 1.6rem;
+  }
+
+  header p {
+    font-size: 1rem;
+  }
+
+  header .image {
+    max-width: 180px;
+  }
+}
+
+svg {
+    position: absolute;
+    top: 20px;
+    left: 20px;
+    color: var(--color-acento);
+    transition: transform 0.3s ease;
+}
+svg:hover {
+    cursor: pointer;
+    transform: scale(1.15);
+}
+
+.tiempo-preparacion p {
+  font-weight: bold;
+  color: var(--color-acento);
+}
+
+#tiempo-preparacion {
+  color: var(--color-acento); /* o un color específico, por ejemplo: */
+  font-weight: bold;
+}
