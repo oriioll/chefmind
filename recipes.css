@@ -147,8 +147,8 @@ header .image img {
 
 svg {
     position: absolute;
-    top: 20px;
-    left: 20px;
+    top: 10px;
+    left: 10px;
     color: var(--color-acento);
     transition: transform 0.3s ease;
 }

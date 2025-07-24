@@ -163,3 +163,22 @@ main {
 .card:nth-child(8) { animation-delay: 0.8s; }
 .card:nth-child(9) { animation-delay: 0.9s; }
 .card:nth-child(10) { animation-delay: 1s; }
+
+
+@media (max-width: 600px) {
+  body {
+    padding-top: 70px; /* Deja espacio para el svg */
+  }
+
+  header {
+    display: flex;
+    flex-direction: column;
+    gap: 0.3rem;
+  }
+
+  /* Ajustamos la posición del svg por si quieres que suba un poco */
+  svg {
+    top: 15px;
+    left: 15px;
+  }
+}
