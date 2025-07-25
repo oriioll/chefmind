@@ -32,10 +32,11 @@ main {
 
 #contenedor-cards {
   display: grid;
-  grid-template-columns: repeat(auto-fit, minmax(450px, 1fr));
+  grid-template-columns: repeat(3, 1fr); /* 3 columnas fijas */
   padding: 2rem;
   justify-items: center;
   gap: 15px;
+  margin: 0 auto; /* Centrar el grid */
 }
 
 .card-receta {
@@ -180,5 +181,30 @@ main {
   svg {
     top: 15px;
     left: 15px;
+  }
+}
+
+
+
+
+
+
+
+
+/* Tablet (2 columnas) */
+@media (max-width: 900px) {
+  #contenedor-cards {
+    grid-template-columns: repeat(2, 1fr); /* 2 columnas */
+  }
+}
+
+/* Móvil (1 columna) */
+@media (max-width: 600px) {
+  #contenedor-cards {
+    grid-template-columns: 1fr; /* 1 columna */
+  }
+  
+  .card-receta img {
+    height: 200px; /* Ajuste opcional para móvil */
   }
 }
