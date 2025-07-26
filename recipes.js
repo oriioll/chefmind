@@ -218,24 +218,24 @@ const recetas = [
     tiempo: "20 min",
     destacada: false,
   },
-{
-  id: "spicy-mayo",
-  titulo: "Spicy Mayo",
-  categoria: "salsas",
-  imagen: "spicy-mayo.png",
-  descripcion: "Mayonesa cremosa con un toque picante al estilo japonés.",
-  tiempo: "5 min",
-  destacada: false,
-},
-{
-  id: "salsa-burger",
-  titulo: "Salsa Burger",
-  categoria: "salsas",
-  imagen: "salsa-burger.png",
-  descripcion: "Salsa cremosa y sabrosa perfecta para hamburguesas caseras.",
-  tiempo: "10 min",
-  destacada: false,
-},
+  {
+    id: "spicy-mayo",
+    titulo: "Spicy Mayo",
+    categoria: "salsas",
+    imagen: "spicy-mayo.png",
+    descripcion: "Mayonesa cremosa con un toque picante al estilo japonés.",
+    tiempo: "5 min",
+    destacada: false,
+  },
+  {
+    id: "salsa-burger",
+    titulo: "Salsa Burger",
+    categoria: "salsas",
+    imagen: "salsa-burger.png",
+    descripcion: "Salsa cremosa y sabrosa perfecta para hamburguesas caseras.",
+    tiempo: "10 min",
+    destacada: false,
+  },
 
   {
     id: "crema-calabaza",
@@ -278,9 +278,10 @@ const recetas = [
     titulo: "Pasta Cacio e Pepe",
     categoria: "pastas",
     imagen: "pasta-cacio-pepe.png",
-    descripcion: "La tradicional pasta romana con queso pecorino y pimienta negra.",
+    descripcion:
+      "La tradicional pasta romana con queso pecorino y pimienta negra.",
     tiempo: "20 min",
-    destacada: false
+    destacada: false,
   },
   {
     id: "pasta-frutti-mare",
@@ -289,7 +290,7 @@ const recetas = [
     imagen: "pasta-frutti-mare.png",
     descripcion: "Pasta italiana con mariscos frescos y tomate.",
     tiempo: "30 min",
-    destacada: false
+    destacada: false,
   },
   {
     id: "pasta-amatriciana",
@@ -298,7 +299,7 @@ const recetas = [
     imagen: "pasta-amatriciana.png",
     descripcion: "Pasta con guanciale, tomate y pecorino.",
     tiempo: "25 min",
-    destacada: false
+    destacada: false,
   },
   {
     id: "pasta-puttanesca",
@@ -307,7 +308,7 @@ const recetas = [
     imagen: "pasta-puttanesca.png",
     descripcion: "Pasta con tomate, aceitunas, alcaparras y anchoas.",
     tiempo: "25 min",
-    destacada: false
+    destacada: false,
   },
   {
     id: "pasta-norma",
@@ -316,7 +317,7 @@ const recetas = [
     imagen: "pasta-norma.png",
     descripcion: "Pasta con berenjena, tomate y ricotta salata.",
     tiempo: "30 min",
-    destacada: false
+    destacada: false,
   },
   {
     id: "pizza-diavola",
@@ -325,7 +326,7 @@ const recetas = [
     imagen: "pizza-diavola.png",
     descripcion: "Pizza con salami picante, tomate y mozzarella.",
     tiempo: "20 min",
-    destacada: false
+    destacada: false,
   },
   {
     id: "pizza-prosciutto",
@@ -334,7 +335,7 @@ const recetas = [
     imagen: "pizza-prosciutto.png",
     descripcion: "Pizza con jamón cocido y champiñones.",
     tiempo: "20 min",
-    destacada: false
+    destacada: false,
   },
   {
     id: "pizza-marinara",
@@ -343,7 +344,7 @@ const recetas = [
     imagen: "pizza-marinara.png",
     descripcion: "Pizza sencilla con tomate, ajo y orégano.",
     tiempo: "15 min",
-    destacada: false
+    destacada: false,
   },
   {
     id: "pizza-capricciosa",
@@ -352,7 +353,7 @@ const recetas = [
     imagen: "pizza-capricciosa.png",
     descripcion: "Pizza con jamón, champiñones, alcachofas y aceitunas.",
     tiempo: "20 min",
-    destacada: false
+    destacada: false,
   },
   {
     id: "pizza-bufala",
@@ -361,16 +362,7 @@ const recetas = [
     imagen: "pizza-bufala.png",
     descripcion: "Pizza con mozzarella de búfala y albahaca fresca.",
     tiempo: "20 min",
-    destacada: false
-  },
-  {
-    id: "cheeseburger-doble",
-    titulo: "Cheeseburger Doble",
-    categoria: "burgers",
-    imagen: "cheeseburger-doble.png",
-    descripcion: "Hamburguesa doble con queso cheddar y pepinillos.",
-    tiempo: "10 min",
-    destacada: false
+    destacada: false,
   },
   {
     id: "bacon-burger",
@@ -379,7 +371,7 @@ const recetas = [
     imagen: "bacon-burger.png",
     descripcion: "Hamburguesa con bacon crujiente y salsa barbacoa.",
     tiempo: "12 min",
-    destacada: false
+    destacada: false,
   },
   {
     id: "bbq-burger",
@@ -388,7 +380,7 @@ const recetas = [
     imagen: "bbq-burger.png",
     descripcion: "Hamburguesa con aros de cebolla y salsa barbacoa.",
     tiempo: "15 min",
-    destacada: false
+    destacada: false,
   },
   {
     id: "truffle-burger",
@@ -397,7 +389,7 @@ const recetas = [
     imagen: "truffle-burger.png",
     descripcion: "Hamburguesa gourmet con mayonesa de trufa y queso suizo.",
     tiempo: "15 min",
-    destacada: false
+    destacada: false,
   },
   {
     id: "chicken-burger",
@@ -406,7 +398,7 @@ const recetas = [
     imagen: "chicken-burger.png",
     descripcion: "Hamburguesa de pollo empanado con lechuga y mayonesa.",
     tiempo: "12 min",
-    destacada: false
+    destacada: false,
   },
   {
     id: "chuletas-cordero",
@@ -415,7 +407,7 @@ const recetas = [
     imagen: "chuletas-cordero.png",
     descripcion: "Chuletas de cordero marinadas y a la parrilla.",
     tiempo: "25 min",
-    destacada: false
+    destacada: false,
   },
   {
     id: "solomillo-cerdo",
@@ -424,7 +416,7 @@ const recetas = [
     imagen: "solomillo-cerdo.png",
     descripcion: "Solomillo de cerdo jugoso con salsa de mostaza.",
     tiempo: "30 min",
-    destacada: false
+    destacada: false,
   },
   {
     id: "cordero-horno",
@@ -433,7 +425,7 @@ const recetas = [
     imagen: "cordero-horno.png",
     descripcion: "Pierna de cordero al horno con hierbas aromáticas.",
     tiempo: "1 h 30 min",
-    destacada: false
+    destacada: false,
   },
   {
     id: "costillar-cerdo",
@@ -442,52 +434,53 @@ const recetas = [
     imagen: "costillar-cerdo.png",
     descripcion: "Costillar de cerdo asado con miel y especias.",
     tiempo: "2 h",
-    destacada: false
+    destacada: false,
   },
   {
     id: "ensalada-griega",
     titulo: "Ensalada Griega",
     categoria: "ensaladas",
     imagen: "ensalada-griega.png",
-    descripcion: "Ensalada Griega delicioso preparado con ingredientes frescos.",
+    descripcion: "Ensalada fresca con tomate, pepino, aceitunas y queso feta.",
     tiempo: "38 min",
-    destacada: false
+    destacada: false,
   },
   {
     id: "ensalada-de-quinoa",
     titulo: "Ensalada de Quinoa",
     categoria: "ensaladas",
     imagen: "ensalada-de-quinoa.png",
-    descripcion: "Ensalada de Quinoa delicioso preparado con ingredientes frescos.",
+    descripcion: "Ensalada saludable con quinoa, verduras frescas y limón.",
     tiempo: "34 min",
-    destacada: false
+    destacada: false,
   },
   {
-    id: "ensalada-de-garbanzos",
-    titulo: "Ensalada de Garbanzos",
+    id: "ensalada-mixta",
+    titulo: "Ensalada Mixta",
     categoria: "ensaladas",
-    imagen: "ensalada-de-garbanzos.png",
-    descripcion: "Ensalada de Garbanzos delicioso preparado con ingredientes frescos.",
-    tiempo: "35 min",
-    destacada: false
+    imagen: "ensalada-mixta.png",
+    descripcion:
+      "Ensalada mixta crujiente con pepino, tomate, zanahoria y croutons.",
+    tiempo: "10 min",
+    destacada: false,
   },
   {
     id: "ensalada-de-aguacate",
     titulo: "Ensalada de Aguacate",
     categoria: "ensaladas",
     imagen: "ensalada-de-aguacate.png",
-    descripcion: "Ensalada de Aguacate delicioso preparado con ingredientes frescos.",
+    descripcion: "Ensalada cremosa con aguacate, tomate y cebolla roja.",
     tiempo: "25 min",
-    destacada: false
+    destacada: false,
   },
   {
     id: "ensalada-waldorf",
     titulo: "Ensalada Waldorf",
     categoria: "ensaladas",
     imagen: "ensalada-waldorf.png",
-    descripcion: "Ensalada Waldorf delicioso preparado con ingredientes frescos.",
+    descripcion: "Ensalada clásica con manzana, apio, nueces y mayonesa.",
     tiempo: "10 min",
-    destacada: false
+    destacada: false,
   },
   {
     id: "hummus-casero",
@@ -496,7 +489,7 @@ const recetas = [
     imagen: "hummus-casero.png",
     descripcion: "Crema de garbanzos cremosa y sabrosa con tahini y limón.",
     tiempo: "39 min",
-    destacada: false
+    destacada: false,
   },
   {
     id: "croquetas-de-jamon",
@@ -505,7 +498,7 @@ const recetas = [
     imagen: "croquetas-de-jamon.png",
     descripcion: "Croquetas de Jamón cremosas fritas en aceite.",
     tiempo: "20 min",
-    destacada: false
+    destacada: false,
   },
   {
     id: "pan-de-ajo",
@@ -514,7 +507,7 @@ const recetas = [
     imagen: "pan-de-ajo.png",
     descripcion: "Pan de Ajo crujiente y sabroso.",
     tiempo: "22 min",
-    destacada: false
+    destacada: false,
   },
   {
     id: "patatas-bravas",
@@ -523,7 +516,7 @@ const recetas = [
     imagen: "patatas-bravas.png",
     descripcion: "Patatas crujientes con salsa picante.",
     tiempo: "35 min",
-    destacada: false
+    destacada: false,
   },
   {
     id: "aceitunas-marinadas",
@@ -532,34 +525,37 @@ const recetas = [
     imagen: "aceitunas-marinadas.png",
     descripcion: "Aceitunas Marinadas deliciosas con especias y ajo.",
     tiempo: "23 min",
-    destacada: false
+    destacada: false,
   },
   {
     id: "crema-de-champiñones",
     titulo: "Crema de Champiñones",
     categoria: "sopas-y-cremas",
     imagen: "crema-de-champiñones.png",
-    descripcion: "Crema de Champiñones delicioso preparado con ingredientes frescos.",
+    descripcion:
+      "Crema de Champiñones delicioso preparado con ingredientes frescos.",
     tiempo: "24 min",
-    destacada: false
+    destacada: false,
   },
   {
     id: "gazpacho-andaluz",
     titulo: "Gazpacho Andaluz",
     categoria: "sopas-y-cremas",
     imagen: "gazpacho-andaluz.png",
-    descripcion: "Gazpacho Andaluz delicioso preparado con ingredientes frescos.",
+    descripcion:
+      "Gazpacho Andaluz delicioso preparado con ingredientes frescos.",
     tiempo: "36 min",
-    destacada: false
+    destacada: false,
   },
   {
     id: "sopa-minestrone",
     titulo: "Sopa Minestrone",
     categoria: "sopas-y-cremas",
     imagen: "sopa-minestrone.png",
-    descripcion: "Sopa Minestrone delicioso preparado con ingredientes frescos.",
+    descripcion:
+      "Sopa Minestrone delicioso preparado con ingredientes frescos.",
     tiempo: "28 min",
-    destacada: false
+    destacada: false,
   },
   {
     id: "vichyssoise",
@@ -568,16 +564,17 @@ const recetas = [
     imagen: "vichyssoise.png",
     descripcion: "Vichyssoise delicioso preparado con ingredientes frescos.",
     tiempo: "28 min",
-    destacada: false
+    destacada: false,
   },
   {
     id: "sopa-de-mariscos",
     titulo: "Sopa de Mariscos",
     categoria: "sopas-y-cremas",
     imagen: "sopa-de-mariscos.png",
-    descripcion: "Sopa de Mariscos delicioso preparado con ingredientes frescos.",
+    descripcion:
+      "Sopa de Mariscos delicioso preparado con ingredientes frescos.",
     tiempo: "20 min",
-    destacada: false
+    destacada: false,
   },
   {
     id: "pollo-al-curry",
@@ -586,34 +583,37 @@ const recetas = [
     imagen: "pollo-al-curry.png",
     descripcion: "Pollo al Curry delicioso preparado con ingredientes frescos.",
     tiempo: "38 min",
-    destacada: false
+    destacada: false,
   },
   {
     id: "pollo-con-limon",
     titulo: "Pollo con Limón",
     categoria: "pollo",
     imagen: "pollo-con-limon.png",
-    descripcion: "Pollo con Limón delicioso preparado con ingredientes frescos.",
+    descripcion:
+      "Pollo con Limón delicioso preparado con ingredientes frescos.",
     tiempo: "21 min",
-    destacada: false
+    destacada: false,
   },
   {
     id: "pollo-a-la-mostaza",
     titulo: "Pollo a la Mostaza",
     categoria: "pollo",
     imagen: "pollo-a-la-mostaza.png",
-    descripcion: "Pollo a la Mostaza delicioso preparado con ingredientes frescos.",
+    descripcion:
+      "Pollo a la Mostaza delicioso preparado con ingredientes frescos.",
     tiempo: "36 min",
-    destacada: false
+    destacada: false,
   },
   {
     id: "pollo-con-almendras",
     titulo: "Pollo con Almendras",
     categoria: "pollo",
     imagen: "pollo-con-almendras.png",
-    descripcion: "Pollo con Almendras delicioso preparado con ingredientes frescos.",
+    descripcion:
+      "Pollo con Almendras delicioso preparado con ingredientes frescos.",
     tiempo: "35 min",
-    destacada: false
+    destacada: false,
   },
   {
     id: "pollo-thai",
@@ -622,7 +622,7 @@ const recetas = [
     imagen: "pollo-thai.png",
     descripcion: "Pollo Thai delicioso preparado con ingredientes frescos.",
     tiempo: "30 min",
-    destacada: false
+    destacada: false,
   },
   {
     id: "paella-mariscos",
@@ -633,7 +633,7 @@ const recetas = [
     tiempo: "40 min",
     destacada: false,
   },
-{
+  {
     id: "arroz-caldoso-bogavante",
     titulo: "Arroz Caldoso con Bogavante",
     categoria: "arroces-y-risottos",
@@ -642,7 +642,7 @@ const recetas = [
     tiempo: "45 min",
     destacada: false,
   },
-{
+  {
     id: "risotto-azafran",
     titulo: "Risotto al Azafrán",
     categoria: "arroces-y-risottos",
@@ -651,7 +651,7 @@ const recetas = [
     tiempo: "30 min",
     destacada: false,
   },
-{
+  {
     id: "arroz-cubana",
     titulo: "Arroz a la Cubana",
     categoria: "arroces-y-risottos",
@@ -660,7 +660,7 @@ const recetas = [
     tiempo: "25 min",
     destacada: false,
   },
-{
+  {
     id: "risotto-gorgonzola",
     titulo: "Risotto al Gorgonzola",
     categoria: "arroces-y-risottos",
@@ -669,7 +669,7 @@ const recetas = [
     tiempo: "30 min",
     destacada: false,
   },
-{
+  {
     id: "arroz-horno",
     titulo: "Arroz al Horno",
     categoria: "arroces-y-risottos",
@@ -678,7 +678,7 @@ const recetas = [
     tiempo: "50 min",
     destacada: false,
   },
-{
+  {
     id: "arroz-meloso-setas",
     titulo: "Arroz Meloso de Setas",
     categoria: "arroces-y-risottos",
@@ -687,7 +687,7 @@ const recetas = [
     tiempo: "35 min",
     destacada: false,
   },
-{
+  {
     id: "risotto-mariscos",
     titulo: "Risotto de Mariscos",
     categoria: "arroces-y-risottos",
@@ -696,7 +696,7 @@ const recetas = [
     tiempo: "35 min",
     destacada: false,
   },
-{
+  {
     id: "arroz-frito",
     titulo: "Arroz Frito con Verduras",
     categoria: "asiatica",
@@ -706,7 +706,7 @@ const recetas = [
     destacada: false,
   },
 
-{
+  {
     id: "dumplings",
     titulo: "Dumplings al Vapor",
     categoria: "asiatica",
@@ -715,7 +715,7 @@ const recetas = [
     tiempo: "35 min",
     destacada: false,
   },
-{
+  {
     id: "yakisoba",
     titulo: "Yakisoba",
     categoria: "asiatica",
@@ -724,7 +724,7 @@ const recetas = [
     tiempo: "25 min",
     destacada: false,
   },
-{
+  {
     id: "curry-rojo",
     titulo: "Curry Rojo Tailandés",
     categoria: "asiatica",
@@ -733,7 +733,7 @@ const recetas = [
     tiempo: "30 min",
     destacada: false,
   },
-{
+  {
     id: "bibimbap",
     titulo: "Bibimbap",
     categoria: "asiatica",
@@ -742,7 +742,7 @@ const recetas = [
     tiempo: "30 min",
     destacada: false,
   },
-{
+  {
     id: "tacos-carne",
     titulo: "Tacos de Carne Asada",
     categoria: "mexicana",
@@ -751,7 +751,7 @@ const recetas = [
     tiempo: "20 min",
     destacada: false,
   },
-{
+  {
     id: "enchiladas",
     titulo: "Enchiladas Rojas",
     categoria: "mexicana",
@@ -760,7 +760,7 @@ const recetas = [
     tiempo: "30 min",
     destacada: false,
   },
-{
+  {
     id: "quesadillas-champinones",
     titulo: "Quesadillas de Queso y Champiñones",
     categoria: "mexicana",
@@ -769,7 +769,7 @@ const recetas = [
     tiempo: "15 min",
     destacada: false,
   },
-{
+  {
     id: "nachos",
     titulo: "Nachos con Guacamole",
     categoria: "mexicana",
@@ -778,7 +778,7 @@ const recetas = [
     tiempo: "15 min",
     destacada: false,
   },
-{
+  {
     id: "fajitas",
     titulo: "Fajitas de Pollo",
     categoria: "mexicana",
@@ -787,7 +787,7 @@ const recetas = [
     tiempo: "25 min",
     destacada: false,
   },
-{
+  {
     id: "chiles-rellenos",
     titulo: "Chiles Rellenos",
     categoria: "mexicana",
@@ -796,7 +796,7 @@ const recetas = [
     tiempo: "40 min",
     destacada: false,
   },
-{
+  {
     id: "tostadas-pollo",
     titulo: "Tostadas de Pollo",
     categoria: "mexicana",
@@ -805,7 +805,7 @@ const recetas = [
     tiempo: "20 min",
     destacada: false,
   },
-{
+  {
     id: "pozole",
     titulo: "Pozole Rojo",
     categoria: "mexicana",
@@ -814,7 +814,7 @@ const recetas = [
     tiempo: "60 min",
     destacada: false,
   },
-{
+  {
     id: "bacalao-pilpil",
     titulo: "Bacalao al Pil Pil",
     categoria: "pescado-y-marisco",
@@ -823,7 +823,7 @@ const recetas = [
     tiempo: "35 min",
     destacada: false,
   },
-{
+  {
     id: "merluza-salsa-verde",
     titulo: "Merluza en Salsa Verde",
     categoria: "pescado-y-marisco",
@@ -832,7 +832,7 @@ const recetas = [
     tiempo: "30 min",
     destacada: false,
   },
-{
+  {
     id: "pulpo-gallega",
     titulo: "Pulpo a la Gallega",
     categoria: "pescado-y-marisco",
@@ -841,7 +841,7 @@ const recetas = [
     tiempo: "40 min",
     destacada: false,
   },
-{
+  {
     id: "calamares-andaluza",
     titulo: "Calamares a la Andaluza",
     categoria: "pescado-y-marisco",
@@ -850,7 +850,7 @@ const recetas = [
     tiempo: "25 min",
     destacada: false,
   },
-{
+  {
     id: "salmon-horno",
     titulo: "Salmón al Horno",
     categoria: "pescado-y-marisco",
@@ -859,7 +859,7 @@ const recetas = [
     tiempo: "20 min",
     destacada: false,
   },
-{
+  {
     id: "tartar-atun",
     titulo: "Tartar de Atún",
     categoria: "pescado-y-marisco",
@@ -868,7 +868,7 @@ const recetas = [
     tiempo: "15 min",
     destacada: false,
   },
-{
+  {
     id: "paella-negra",
     titulo: "Arroz Negro",
     categoria: "pescado-y-marisco",
@@ -877,7 +877,7 @@ const recetas = [
     tiempo: "40 min",
     destacada: false,
   },
-{
+  {
     id: "brochetas-langostinos",
     titulo: "Brochetas de Langostinos",
     categoria: "pescado-y-marisco",
@@ -886,7 +886,7 @@ const recetas = [
     tiempo: "20 min",
     destacada: false,
   },
-{
+  {
     id: "tiramisu",
     titulo: "Tiramisú Clásico",
     categoria: "postres",
@@ -895,7 +895,7 @@ const recetas = [
     tiempo: "25 min",
     destacada: false,
   },
-{
+  {
     id: "cheesecake-lotus",
     titulo: "Cheesecake de Lotus",
     categoria: "postres",
@@ -904,7 +904,7 @@ const recetas = [
     tiempo: "30 min",
     destacada: false,
   },
-{
+  {
     id: "flan-casero",
     titulo: "Flan Casero",
     categoria: "postres",
@@ -913,7 +913,7 @@ const recetas = [
     tiempo: "35 min",
     destacada: false,
   },
-{
+  {
     id: "helado-pistacho",
     titulo: "Helado de Pistacho",
     categoria: "postres",
@@ -922,7 +922,7 @@ const recetas = [
     tiempo: "15 min",
     destacada: false,
   },
-{
+  {
     id: "natillas",
     titulo: "Natillas Caseras",
     categoria: "postres",
@@ -931,7 +931,7 @@ const recetas = [
     tiempo: "20 min",
     destacada: false,
   },
-{
+  {
     id: "mousse-choco",
     titulo: "Mousse de Chocolate",
     categoria: "postres",
@@ -940,7 +940,7 @@ const recetas = [
     tiempo: "20 min",
     destacada: false,
   },
-{
+  {
     id: "oreo-trifle",
     titulo: "Trifle de Oreo",
     categoria: "postres",
@@ -949,7 +949,7 @@ const recetas = [
     tiempo: "15 min",
     destacada: false,
   },
-{
+  {
     id: "brownie-nueces",
     titulo: "Brownie de Nueces",
     categoria: "postres",
@@ -958,7 +958,7 @@ const recetas = [
     tiempo: "30 min",
     destacada: false,
   },
-{
+  {
     id: "salsa-curry",
     titulo: "Salsa de Curry",
     categoria: "salsas",
@@ -967,7 +967,7 @@ const recetas = [
     tiempo: "15 min",
     destacada: false,
   },
-{
+  {
     id: "salsa-picante-mango",
     titulo: "Salsa Picante de Mango",
     categoria: "salsas",
@@ -976,7 +976,7 @@ const recetas = [
     tiempo: "10 min",
     destacada: false,
   },
-{
+  {
     id: "salsa-ajo",
     titulo: "Salsa de Ajo",
     categoria: "salsas",
@@ -985,7 +985,7 @@ const recetas = [
     tiempo: "10 min",
     destacada: false,
   },
-{
+  {
     id: "salsa-roquefort",
     titulo: "Salsa Roquefort",
     categoria: "salsas",
@@ -994,7 +994,7 @@ const recetas = [
     tiempo: "10 min",
     destacada: false,
   },
-{
+  {
     id: "salsa-tartara",
     titulo: "Salsa Tártara",
     categoria: "salsas",
@@ -1003,7 +1003,7 @@ const recetas = [
     tiempo: "10 min",
     destacada: false,
   },
-{
+  {
     id: "salsa-chipotle",
     titulo: "Salsa de Chipotle",
     categoria: "salsas",
@@ -1012,7 +1012,7 @@ const recetas = [
     tiempo: "10 min",
     destacada: false,
   },
-{
+  {
     id: "salsa-pesto-rosso",
     titulo: "Pesto Rosso",
     categoria: "salsas",
@@ -1021,7 +1021,7 @@ const recetas = [
     tiempo: "10 min",
     destacada: false,
   },
-{
+  {
     id: "salsa-cacahuete",
     titulo: "Salsa de Cacahuete Thai",
     categoria: "salsas",
@@ -1030,7 +1030,7 @@ const recetas = [
     tiempo: "10 min",
     destacada: false,
   },
-{
+  {
     id: "wrap-falafel",
     titulo: "Wrap de Falafel",
     categoria: "wraps-y-sandwiches",
@@ -1039,7 +1039,7 @@ const recetas = [
     tiempo: "20 min",
     destacada: false,
   },
-{
+  {
     id: "sandwich-caprese",
     titulo: "Sándwich Caprese",
     categoria: "wraps-y-sandwiches",
@@ -1048,7 +1048,7 @@ const recetas = [
     tiempo: "10 min",
     destacada: false,
   },
-{
+  {
     id: "wrap-atun",
     titulo: "Wrap de Atún Mediterráneo",
     categoria: "wraps-y-sandwiches",
@@ -1057,7 +1057,7 @@ const recetas = [
     tiempo: "15 min",
     destacada: false,
   },
-{
+  {
     id: "bagel-salmon",
     titulo: "Bagel de Salmón Ahumado",
     categoria: "wraps-y-sandwiches",
@@ -1066,7 +1066,7 @@ const recetas = [
     tiempo: "15 min",
     destacada: false,
   },
-{
+  {
     id: "sandwich-pollo-crujiente",
     titulo: "Sándwich de Pollo Crujiente",
     categoria: "wraps-y-sandwiches",
@@ -1075,7 +1075,7 @@ const recetas = [
     tiempo: "20 min",
     destacada: false,
   },
-{
+  {
     id: "wrap-veggie",
     titulo: "Wrap Veggie",
     categoria: "wraps-y-sandwiches",
@@ -1084,7 +1084,7 @@ const recetas = [
     tiempo: "15 min",
     destacada: false,
   },
-{
+  {
     id: "croque-monsieur",
     titulo: "Croque Monsieur",
     categoria: "wraps-y-sandwiches",
@@ -1093,7 +1093,7 @@ const recetas = [
     tiempo: "20 min",
     destacada: false,
   },
-{
+  {
     id: "wrap-teriyaki",
     titulo: "Wrap de Pollo Teriyaki",
     categoria: "wraps-y-sandwiches",
@@ -1102,14 +1102,14 @@ const recetas = [
     tiempo: "20 min",
     destacada: false,
   },
-{
-  id: "katsu-curry",
-  titulo: "Katsu Curry Japonés",
-  categoria: "asiatica",
-  imagen: "katsu-curry.png",
-  descripcion: "Crujiente filete de cerdo empanado con curry japonés suave y arroz blanco.",
-  tiempo: "40 min",
-  destacada: false,
-},
-
+  {
+    id: "katsu-curry",
+    titulo: "Katsu Curry Japonés",
+    categoria: "asiatica",
+    imagen: "katsu-curry.png",
+    descripcion:
+      "Crujiente filete de cerdo empanado con curry japonés suave y arroz blanco.",
+    tiempo: "40 min",
+    destacada: false,
+  },
 ];
