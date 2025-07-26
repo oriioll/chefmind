@@ -138,15 +138,6 @@ const recetas = [
     destacada: false,
   },
   {
-    id: "tacos-carne",
-    titulo: "Tacos de Carne Asada",
-    categoria: "mexicana",
-    imagen: "tacos-carne.png",
-    descripcion: "Tacos tradicionales con carne marinada y salsas.",
-    tiempo: "30 min",
-    destacada: false,
-  },
-  {
     id: "quesadillas-queso",
     titulo: "Quesadillas de Queso",
     categoria: "mexicana",
@@ -436,15 +427,6 @@ const recetas = [
     destacada: false
   },
   {
-    id: "hamburguesa-ternera",
-    titulo: "Hamburguesa de Ternera",
-    categoria: "carnes",
-    imagen: "hamburguesa-ternera.png",
-    descripcion: "Hamburguesa casera de carne de ternera.",
-    tiempo: "15 min",
-    destacada: false
-  },
-  {
     id: "cordero-horno",
     titulo: "Cordero al Horno",
     categoria: "carnes",
@@ -715,24 +697,6 @@ const recetas = [
     destacada: false,
   },
 {
-    id: "pad-thai",
-    titulo: "Pad Thai",
-    categoria: "asiatica",
-    imagen: "pad-thai.png",
-    descripcion: "Fideos salteados con tofu, gambas, cacahuetes y lima.",
-    tiempo: "25 min",
-    destacada: false,
-  },
-{
-    id: "ramen",
-    titulo: "Ramen Tradicional",
-    categoria: "asiatica",
-    imagen: "ramen.png",
-    descripcion: "Sopa japonesa con fideos, cerdo y huevo marinado.",
-    tiempo: "45 min",
-    destacada: false,
-  },
-{
     id: "arroz-frito",
     titulo: "Arroz Frito con Verduras",
     categoria: "asiatica",
@@ -741,15 +705,7 @@ const recetas = [
     tiempo: "20 min",
     destacada: false,
   },
-{
-    id: "teriyaki-pollo",
-    titulo: "Pollo Teriyaki",
-    categoria: "asiatica",
-    imagen: "teriyaki-pollo.png",
-    descripcion: "Pollo glaseado con salsa teriyaki sobre arroz.",
-    tiempo: "30 min",
-    destacada: false,
-  },
+
 {
     id: "dumplings",
     titulo: "Dumplings al Vapor",
@@ -805,7 +761,7 @@ const recetas = [
     destacada: false,
   },
 {
-    id: "quesadillas",
+    id: "quesadillas-champinones",
     titulo: "Quesadillas de Queso y Champiñones",
     categoria: "mexicana",
     imagen: "quesadillas.png",
