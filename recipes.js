@@ -294,7 +294,7 @@ const recetas = [
   },
   {
     id: "pasta-amatriciana",
-    titulo: "Pasta all'Amatriciana",
+    titulo: "Pasta a la Amatriciana",
     categoria: "pastas",
     imagen: "pasta-amatriciana.png",
     descripcion: "Pasta con guanciale, tomate y pecorino.",
@@ -303,7 +303,7 @@ const recetas = [
   },
   {
     id: "pasta-puttanesca",
-    titulo: "Pasta alla Puttanesca",
+    titulo: "Pasta a la Puttanesca",
     categoria: "pastas",
     imagen: "pasta-puttanesca.png",
     descripcion: "Pasta con tomate, aceitunas, alcaparras y anchoas.",
@@ -312,7 +312,7 @@ const recetas = [
   },
   {
     id: "pasta-norma",
-    titulo: "Pasta alla Norma",
+    titulo: "Pasta a la Norma",
     categoria: "pastas",
     imagen: "pasta-norma.png",
     descripcion: "Pasta con berenjena, tomate y ricotta salata.",
@@ -764,7 +764,7 @@ const recetas = [
     id: "quesadillas-champinones",
     titulo: "Quesadillas de Queso y Champiñones",
     categoria: "mexicana",
-    imagen: "quesadillas.png",
+    imagen: "quesadillas-champinones.png",
     descripcion: "Tortillas crujientes con queso fundido y champiñones.",
     tiempo: "15 min",
     destacada: false,
@@ -866,15 +866,6 @@ const recetas = [
     imagen: "tartar-atun.png",
     descripcion: "Atún crudo con aguacate y salsa de soja.",
     tiempo: "15 min",
-    destacada: false,
-  },
-  {
-    id: "paella-negra",
-    titulo: "Arroz Negro",
-    categoria: "pescado-y-marisco",
-    imagen: "paella-negra.png",
-    descripcion: "Paella de arroz con tinta de calamar y marisco.",
-    tiempo: "40 min",
     destacada: false,
   },
   {
