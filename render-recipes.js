@@ -7,7 +7,11 @@ document.addEventListener("DOMContentLoaded", () => {
   if (contenedor) {
     const nombreArchivo = path.substring(path.lastIndexOf("/") + 1);
     const categoria = nombreArchivo.replace(".html", "");
-    const recetasFiltradas = recetas.filter(receta => receta.categoria === categoria);
+
+    // Filtrar y ordenar alfabéticamente por título
+    const recetasFiltradas = recetas
+      .filter(receta => receta.categoria === categoria)
+      .sort((a, b) => a.titulo.localeCompare(b.titulo));
 
     recetasFiltradas.forEach(receta => {
       // Calculamos ruta relativa hacia assets

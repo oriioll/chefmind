@@ -52,6 +52,7 @@ main {
 .card-receta:hover {
   transform: scale(1.02);
   cursor: pointer;
+  filter: brightness(1.05);
 }
 
 .card-receta img {
