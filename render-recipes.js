@@ -22,7 +22,7 @@ document.addEventListener("DOMContentLoaded", () => {
 
       card.innerHTML = `
         <a href="./${categoria}/${receta.id}.html" class="card-link">
-          <img src="${rutaBase}/assets/${receta.id}.png" alt="${receta.titulo}">
+          <img src="${rutaBase}/assets/${receta.id}.png" alt="${receta.titulo}" loading="lazy">
           <div class="card-info">
             <h2>${receta.titulo}</h2>
             <p>${receta.descripcion}</p>
@@ -51,8 +51,21 @@ document.addEventListener("DOMContentLoaded", () => {
       divTiempo.textContent = receta.tiempo;
 
       const rutaBase = nivelActual === 3 ? "../../.." : "../.."; // 3 niveles en /recetas/pastas/pasta-carbonara.html
-      imgReceta.src = `${rutaBase}/assets/${receta.id}.png`;
+      imgReceta.src = `${rutaBase}/assets/${receta.id}.webp`;
       imgReceta.alt = receta.titulo;
     }
   }
+});
+
+
+document.addEventListener("DOMContentLoaded", () => {
+  // Selecciona todas las imágenes de la página
+  const imagenes = document.querySelectorAll("img");
+
+  imagenes.forEach(img => {
+    // Si no tiene el atributo loading, lo agrega
+    if (!img.hasAttribute("loading")) {
+      img.setAttribute("loading", "lazy");
+    }
+  });
 });
